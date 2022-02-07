@@ -1,0 +1,113 @@
+## C++基础入门
+
+### 1 C++初识
+
+#### 1.1 第一个C++程序
+
+编写一个C++程序总共分为4个步骤
+
+- 创建项目
+- 创建文件
+- 编写代码''
+- 运行程序
+
+##### 1.1.1 创建项目
+
+​	Visual Studio是我们用来编写C++程序的主要工具, 我们先将它打开
+
+
+
+c++基本框架:
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+	system("pause");
+	return 0;
+}
+```
+
+
+
+main是一个程序入口, 有且仅有一个.
+
+
+
+#### 1.2 注释:
+
+单行注释, //
+
+多行注释, /**/
+
+
+
+
+
+#### 1.3 变量
+
+变量存在的意义: 方便我们管理内存空间 
+
+![image-20211223090403542](C:\Users\duoduo.liu\AppData\Roaming\Typora\typora-user-images\image-20211223090403542.png)
+
+#### 1.4  常量
+
+##### 1.4.1 常量的定义方式
+
+- #define 宏常量
+
+- const 修饰的变量
+
+  ```c++
+  #include <iostream>
+  using namespace std;
+  
+  // 1. 宏常量
+  #define Day 7
+  
+  int main()
+  {
+  	// Day = 14; // 错误，Day是常量， 一旦修改就会报错
+  	cout << "There are " << Day << " days in a week" << endl;
+  
+  	// 2. const修饰的变量 
+  	const int month = 12;
+  	// month = 24; // 错误，month是常量， 一旦修改就会报错
+  	cout << "There are " << month << " months in a year" << endl;
+  	system("pause");
+  	return 0;
+  }
+  ```
+
+#### 1.5 关键字
+
+
+
+#### 1.6 标识符命名规则
+
+1. 标识符不可以是关键字
+2. 标识符由字母, 数字, 下划线
+3. 标识符第一个字符只能是字母, 下划线
+4. 标识符区分大小写
+
+> 建议: 标识符争取做到见名知意
+
+
+
+#### 1.7 数据类型
+
+语法: 数据类型  变量名 = 变量初始值
+
+```c
+int a = 10;
+```
+
+数据类型的存在意义:
+
+给变量分配合适的内存空间
+
+![image-20211224101059947](C:\Users\duoduo.liu\AppData\Roaming\Typora\typora-user-images\image-20211224101059947.png)
+

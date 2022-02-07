@@ -1,0 +1,1 @@
+Alt + O : exit the edit mode

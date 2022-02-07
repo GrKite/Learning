@@ -1,0 +1,1 @@
+for SQL, it is sensitive to case when it is in the character string ;)

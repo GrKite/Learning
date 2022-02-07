@@ -1,0 +1,1 @@
+IN： limited and discrete values, if so we can use IN , it is always faster&clearer than OR 
