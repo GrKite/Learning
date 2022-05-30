@@ -308,7 +308,7 @@ const int size;  // error: uninitialized const
 
 # Const member functions
 
-- Cannot modify their objects
+- Cannot modify their objects, it is read-only
 
 ```c++
 int Date::set_day()
@@ -341,8 +341,8 @@ int Date::get_day() const
   }
   ```
 
-- Function members that do not modify data should be declared const
+- Function members that do not modify data should be declared const, which means read-only
 
 - const member functions are safe for const objects
 
-这个const 意味着this 是const
+这个const 意味着 this 是const

@@ -12,3 +12,6 @@ Oracle Database issues an implicit `COMMIT` before and after any data definition
 >
 > https://blog.csdn.net/hzhsan/article/details/9719307 (chinese summary)
 
+
+
+- COMMIT 可以保证数据一致性, PL/SQL的话, 在test sp之后, 数据是和test里面输入的数据一致.
